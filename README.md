@@ -86,10 +86,21 @@ cyclistic-capstone/
 ---
 
 ## 📈 Key Findings
-*(To be updated after analysis)*
-- Finding 1
-- Finding 2
-- Finding 3
+1. Members take **almost 2x more rides** than casual riders
+   (65.7% vs 34.3% of total rides)
+2. Casual riders ride **almost 2x longer** per ride
+   (21.42 min vs 11.96 min average)
+3. Casual riders peak on **weekends**, members peak on **weekdays**
+4. Casual riders drop **83% in winter**, members stay consistent year round
+5. Casual riders peak in **Summer**, members ride consistently all seasons
+6. Members show a **commuter pattern** (8am + 5pm peaks),
+   casuals show a **leisure pattern** (gradual afternoon peak)
+7. Casual riders slightly prefer **electric bikes**,
+   members slightly prefer **classic bikes**
+8. Casual riders start at **tourist landmarks**
+   (Navy Pier, Millennium Park, Shedd Aquarium)
+9. Members start at **business and commuter districts**
+   (Canal St, Clinton St, Wells St)
 
 ---
 
