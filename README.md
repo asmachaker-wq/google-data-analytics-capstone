@@ -80,4 +80,27 @@ cyclistic-capstone/
 
 ---
 
-*Google Data Analytics Professional Certificate — Coursera*
+## 📥 Data Source & Preparation
+
+### Where is the data from?
+- Downloaded from Divvy public trip data:
+  https://divvy-tripdata.s3.amazonaws.com/index.html
+- Made available by Motivate International Inc. under public license
+- 12 months of historical bike trip data (CSV format)
+- No personally identifiable information included
+
+### How is the data organized?
+Each CSV file contains one month of trip data with these columns:
+| Column | Description |
+|--------|-------------|
+| ride_id | Unique ID for each ride |
+| rideable_type | Type of bike used |
+| started_at | Start date and time |
+| ended_at | End date and time |
+| start_station_name | Name of start station |
+| end_station_name | Name of end station |
+| start_lat / start_lng | Start location coordinates |
+| end_lat / end_lng | End location coordinates |
+| member_casual | Rider type (member or casual) |
+
+---
