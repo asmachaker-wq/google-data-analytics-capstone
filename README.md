@@ -48,13 +48,39 @@ cyclistic-capstone/
 
 ---
 
+## 🧹 Data Cleaning Summary
+
+| | Rows |
+|---|---|
+| **Before cleaning** | 2,417,012 |
+| **After cleaning** | 1,658,616 |
+| **Rows removed** | 758,396 |
+
+### Rows were removed due to:
+- Null values in station names
+- Duplicate ride IDs
+- Rides under 1 minute (false starts)
+- Rides over 24 hours (stolen bikes)
+
 ## 🔍 Analysis Process
-1. **Ask** — Defined business task and key questions
-2. **Prepare** — Downloaded and explored 12 months of trip data
-3. **Process** — Cleaned data using SQL in Google BigQuery
-4. **Analyze** — Identified trends using Python
-5. **Share** — Built interactive dashboard in Tableau
-6. **Act** — Delivered top 3 marketing recommendations
+
+1. **Ask** — Defined business task: how do annual members and casual 
+   riders use Cyclistic bikes differently?
+
+2. **Prepare** — Downloaded 12 months of Cyclistic trip data (2023) 
+   from Divvy public dataset. Total raw rows: 2,417,012
+
+3. **Process** — Cleaned data using SQL in Google BigQuery:
+   - Combined 12 monthly CSV files into one table
+   - Removed nulls, duplicates, and invalid ride lengths
+   - Added ride_length_minutes, day_of_week, month, hour and season columns
+   - Rows after cleaning: 1,658,616 (removed 758,396 rows)
+
+4. **Analyze** — *(In progress — Python analysis coming soon)*
+
+5. **Share** — *(In progress — Tableau dashboard coming soon)*
+
+6. **Act** — *(In progress — Recommendations coming soon)*
 
 ---
 
