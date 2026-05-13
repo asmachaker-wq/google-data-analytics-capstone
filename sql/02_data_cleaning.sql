@@ -4,30 +4,30 @@
 -- ================================================
 
 -- Combine all 12 months into one table
-CREATE TABLE `cyclistic-capstone.cyclistic_data.trips_all` AS
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_01`
+CREATE TABLE `cyclistic-capstone-496214.cyclistic_data.trips_all` AS
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2025_05`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_02`
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2025_06`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_03`
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2025_07`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_04`
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2025_08`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_05`
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2025_09`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_06`
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2025_10`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_07`
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2025_11`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_08`
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2025_12`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_09`
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2026_01`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_10`
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2026_02`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_11`
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2026_03`
 UNION ALL
-SELECT * FROM `cyclistic-capstone.cyclistic_data.trips_2023_12`;
+SELECT * FROM `cyclistic-capstone-496214.cyclistic_data.trips_2026_04`;
 
 -- Check total rows after combining
 SELECT COUNT(*) AS total_rows
