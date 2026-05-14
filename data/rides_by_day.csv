@@ -1,0 +1,15 @@
+member_casual,day_of_week,total_rides,avg_ride_length_minutes
+casual,1,184360,24.95
+casual,2,129669,21.28
+casual,3,124124,18.64
+casual,4,122592,17.48
+casual,5,143460,18.68
+casual,6,173589,21.05
+casual,7,224379,24.34
+member,1,217171,13.3
+member,2,307398,11.6
+member,3,342699,11.54
+member,4,339040,11.43
+member,5,347241,11.5
+member,6,306910,11.92
+member,7,246472,13.25

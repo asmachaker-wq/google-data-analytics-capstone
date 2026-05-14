@@ -1,0 +1,9 @@
+member_casual,season,total_rides,avg_ride_length_minutes
+casual,Fall,315888,19.78
+casual,Spring,270787,20.49
+casual,Summer,451094,24.12
+casual,Winter,64404,14.5
+member,Fall,640402,11.99
+member,Spring,585401,11.38
+member,Summer,608103,12.88
+member,Winter,273025,11.09
