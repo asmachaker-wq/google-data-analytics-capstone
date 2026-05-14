@@ -45,6 +45,9 @@ cyclistic-capstone/
 - Cyclistic historical trip data (previous 12 months)
 - Made available by Motivate International Inc.
 - Public data — no personally identifiable information used
+- Summary datasets available in the `data/` folder
+- Raw data not included due to file size limitations
+- Raw data available at: https://divvy-tripdata.s3.amazonaws.com/index.html
 
 ---
 
