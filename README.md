@@ -38,7 +38,7 @@ cyclistic-capstone/
 ├── python/
 │   └── cyclistic_analysis.ipynb
 └── data/
-└── cyclistic_cleaned.csv
+    └── cyclistic_cleaned.csv
 ---
 
 ## 📊 Data Source
